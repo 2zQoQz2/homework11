@@ -5,7 +5,6 @@
 
 .hero::before {
 	width: 100%;
-
 	bottom: 106px;
 }
 
@@ -213,7 +212,7 @@ details > p {
 }
 
 @media (width <= 992px) {
-	.hero::after {
+	.hero::before {
 		display: none;
 	}
 
@@ -225,10 +224,6 @@ details > p {
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
-	}
-
-	.hero::after {
-		display: none;
 	}
 
 	.hero-info {
@@ -265,7 +260,7 @@ details > p {
 	}
 
 	.faq::before {
-		display: noe;
+		display: none;
 	}
 
 	.faq-container {
